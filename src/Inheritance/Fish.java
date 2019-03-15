@@ -30,6 +30,6 @@ public class Fish extends Animal{
     private void swim() {
         moveMucles();
         moveBackFin();
-        super.move(speed);
+        super.move(1);
     }
 }
