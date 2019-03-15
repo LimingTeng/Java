@@ -24,7 +24,7 @@ public class Main {
         calculator.setSecondNumber(0);
         System.out.println("multiply = " + calculator.getMultiplicationResult());
         System.out.println("divide = " + calculator.getDivisionResult());
-        System.out.println("-------------------------------");
+        System.out.println("--------------------------------");
 
         // Person:
         Person person = new Person();
@@ -41,5 +41,11 @@ public class Main {
         System.out.println("teen = " + person.isTeen());
         person.setLastName("Smith");
         System.out.println("full name = " + person.getFullName());
+        System.out.println("--------------------------------");
+
+        // Bank account:
+        Bank amex = new Bank();
+        System.out.println("Now your balance is $" + amex.deposit(500));
+        System.out.println("Now your balance is $" + amex.withdraw(100));
     }
 }
