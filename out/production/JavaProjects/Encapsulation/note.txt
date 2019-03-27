@@ -1,0 +1,3 @@
+Encapsulation:
+Restrict access to certain components in the object you are creating.
+Protect the members of a class from external access in order to guard against unauthorized access.
