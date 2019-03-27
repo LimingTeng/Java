@@ -1,0 +1,9 @@
+Inheritance: is-relationship
+eg:
+Car: is -Vehicle
+
+Composition: has-relationship
+eg:
+Computer Has -motherboard
+             -case
+             -monitor
