@@ -1,0 +1,3 @@
+Polymorphism:
+Method or Mechanism in OOP that allows actions to act differently
+based on the actual object that the action is being performed on
