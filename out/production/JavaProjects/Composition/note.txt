@@ -7,3 +7,9 @@ eg:
 Computer Has -motherboard
              -case
              -monitor
+
+************************************
+Where to use Inheritance or Composition?
+As a general rule, look at Composition first.
+Composition does give the added advantages and more flexibility.
+But it does depends on the solution what you are trying to achieve.
