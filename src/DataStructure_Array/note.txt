@@ -1,0 +1,2 @@
+Array is a data structure to store sequence of values that are all of the same type.
+eg: You can create an array of integers, an array of characters, an array of strings, etc.
