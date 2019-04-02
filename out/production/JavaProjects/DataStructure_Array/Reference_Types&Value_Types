@@ -1,0 +1,3 @@
+Primitive Types are "value types" that hold a value
+
+Array is a "reference type", String is also a "reference type"
