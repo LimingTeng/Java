@@ -1,0 +1,7 @@
+ArrayList inheritance from List
+ArrayList is actually a class
+
+ArrayList is a resizeable-array.
+It handles it all internally, not only maintains a size of how many elements,
+but also the capacity, the amount of memory that is reserved.
+And as elements are added to an array list, its capacity grows automatically.
