@@ -1,3 +1,14 @@
 Interface specifies methods that a particular class that implements the interface.
 Now the interface itself that you are creating is abstract,
 and that means if there is no actual code for any of the methods, you only supply the actual method names and the parameters.
+
+Interface OR Inheritance?
+Consider the relationship of the final class to the object that it's extending or implementing.
+
+e.g:
+With our telephone example, both devices have a telephone, but the desk phone doesn't have anything else.
+But the mobile phone is not just a phone.
+So it's more accurate to say that a mobile phone is actually a computer that has a phone interface.
+
+You can actually implement from many interfaces.
+Interface is like a component.
