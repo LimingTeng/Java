@@ -1,0 +1,5 @@
+Four types of nested classes:
+1. Static nested class
+2. Non-static nested class (inner class)
+3. Local class
+4. Anonymous class (which is a nested class without a class name)
