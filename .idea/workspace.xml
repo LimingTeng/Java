@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3ef2b1-95f3-40fb-b17f-7b2b66a549a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/AbstractClassVSInterface.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/Animal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/AnimalMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/Bird.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/CanFly.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/Parrot.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/Penguin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/note.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaProjects/InnerClasses/GearboxMain.class" afterPath="$PROJECT_DIR$/out/production/JavaProjects/InnerClasses/GearboxMain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/ListItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/ListItemMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/MyLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AbstractClass/NodeList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,20 +23,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GearboxMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InnerClasses/GearboxMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="note.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractClass/note.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractClassVSInterface.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractClassVSInterface.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AbstractClass/AbstractClassVSInterface.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -62,40 +43,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractClass/Animal.java">
+      <file leaf-file-name="ListItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractClass/ListItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="214">
+              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractClass/Dog.java">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractClass/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="888">
+              <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractClass/NodeList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AbstractClass/MyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+              <folding>
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListItemMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AbstractClass/ListItemMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="17" column="72" lean-forward="false" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
-              <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnimalMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractClass/AnimalMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -146,23 +156,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CanFly.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AbstractClass/CanFly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -177,11 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Polymorphism/Car.java" />
-        <option value="$PROJECT_DIR$/src/Polymorphism/Main.java" />
-        <option value="$PROJECT_DIR$/src/Polymorphism_Car/Holden.java" />
-        <option value="$PROJECT_DIR$/src/Polymorphism_Car/Ford.java" />
-        <option value="$PROJECT_DIR$/src/Polymorphism_Car/Main.java" />
         <option value="$PROJECT_DIR$/src/OOP_Project/Additions.java" />
         <option value="$PROJECT_DIR$/src/OOP_Project/BaseBurger.java" />
         <option value="$PROJECT_DIR$/src/OOP_Project/HealthyBurger.java" />
@@ -228,6 +223,11 @@
         <option value="$PROJECT_DIR$/src/AbstractClass/Parrot.java" />
         <option value="$PROJECT_DIR$/src/AbstractClass/Penguin.java" />
         <option value="$PROJECT_DIR$/src/AbstractClass/AbstractClassVSInterface.txt" />
+        <option value="$PROJECT_DIR$/src/AbstractClass/ListItem.java" />
+        <option value="$PROJECT_DIR$/src/AbstractClass/Node.java" />
+        <option value="$PROJECT_DIR$/src/AbstractClass/NodeList.java" />
+        <option value="$PROJECT_DIR$/src/AbstractClass/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/AbstractClass/ListItemMain.java" />
       </list>
     </option>
   </component>
@@ -238,8 +238,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="842" />
-    <option name="width" value="838" />
+    <option name="x" value="797" />
+    <option name="width" value="883" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -325,27 +325,7 @@
       <recent name="Polymorphism_Car" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnimalMain">
-    <configuration default="false" name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="DataStructure_LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="DataStructure_LinkedList.Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JavaProjects" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ListItemMain">
     <configuration default="false" name="TelephoneMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -414,6 +394,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="AbstractClass.AnimalMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaProjects" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ListItemMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="AbstractClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="AbstractClass.ListItemMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -807,19 +807,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Demo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TelephoneMain" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SaveableMain" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GearboxMain" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AnimalMain" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TelephoneMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SaveableMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GearboxMain" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AnimalMain" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ListItemMain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AnimalMain" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GearboxMain" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SaveableMain" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TelephoneMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Demo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListItemMain" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AnimalMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GearboxMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SaveableMain" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TelephoneMain" />
       </list>
     </recent_temporary>
   </component>
@@ -840,15 +840,15 @@
       <workItem from="1554229646983" duration="9612000" />
       <workItem from="1555359529532" duration="1809000" />
       <workItem from="1555362908262" duration="17011000" />
-      <workItem from="1556583287042" duration="9516000" />
+      <workItem from="1556583287042" duration="14609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117170000" />
+    <option name="totallyTimeSpent" value="122263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="842" y="0" width="838" height="1050" extended-state="0" />
+    <frame x="797" y="0" width="883" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -861,12 +861,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37653062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37653062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20979899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532699" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24874371" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -928,35 +928,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OOP_Project/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP_Project/Additions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP_Project/BaseBurger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP_Project/HealthyBurger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP_Project_Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/OOP_Project_Solution/Hamburger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1272">
@@ -1262,9 +1233,9 @@
         <state relative-caret-position="336">
           <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#602#603#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1361,6 +1332,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ListItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/NodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractClass/ListItemMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
