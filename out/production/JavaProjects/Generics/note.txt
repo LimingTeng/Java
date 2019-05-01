@@ -1,0 +1,4 @@
+Generics allow us to create classes in the face of methods that
+take types of parameters called unsurprisingly type parameters.
+
+So different to other parameters, we're talking about type parameters.
