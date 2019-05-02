@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by LynnTeng on 2019/5/1.
  */
-public class Team<T extends Player> {
+public class Team<T extends Player> implements Comparable<Team<T>> {
     private String name;
     //track: keep the basic number of fields
     int played = 0;
@@ -45,23 +45,40 @@ public class Team<T extends Player> {
         return this.members.size();
     }
 
-    public void matchResult(Team opponent, int ourScore, int theirScore) {
+    public void matchResult(Team<T> opponent, int ourScore, int theirScore) {
+        String message;
+
         if (ourScore > theirScore) {
             won++;
+            message = " beat ";
         } else if (ourScore == theirScore) {
             tied++;
+            message = " drew with ";
         } else {
             lost++;
+            message = " lost to ";
         }
         played++;
 
         //here we also save the result of the opponent team
         if (opponent != null) {
+            System.out.println(this.getName() + message + opponent.getName());
             opponent.matchResult(null, theirScore, ourScore);
         }
     }
 
     public int ranking() {
         return (won * 2) + tied;
+    }
+
+    @Override
+    public int compareTo(Team<T> team) {
+        if (this.ranking() > team.ranking()) {
+            return -1;
+        } else if (this.ranking() < team.ranking()) {
+            return 1;
+        } else {
+            return 0;
+        }
     }
 }

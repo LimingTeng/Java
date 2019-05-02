@@ -20,5 +20,32 @@ public class PlayerMain {
 
         Team<SoccerPlayer> soccerPlayerTeam = new Team<>("Soccer Team");
         soccerPlayerTeam.addPlayer(beckham);
+
+        System.out.println("-----------------------");
+
+        Team<FootballPlayer> melbourne = new Team<>("Melbourne");
+        FootballPlayer gordon = new FootballPlayer("Gordon");
+        melbourne.addPlayer(gordon);
+
+        Team<FootballPlayer> hawthorn = new Team<>("Hawthorn");
+        Team<FootballPlayer> fremantle = new Team<>("Fremantle");
+
+        hawthorn.matchResult(fremantle, 1, 0);
+        hawthorn.matchResult(adelaideCrows, 3, 8);
+        adelaideCrows.matchResult(fremantle, 2, 1);
+//        adelaideCrows.matchResult(baseballPlayerTeam, 1, 1);
+
+        System.out.println("-----------------------");
+        System.out.println("Ranking:");
+        System.out.println(adelaideCrows.getName() + ": " + adelaideCrows.ranking());
+        System.out.println(melbourne.getName() + ": " + adelaideCrows.ranking());
+        System.out.println(fremantle.getName() + ": " + adelaideCrows.ranking());
+        System.out.println(hawthorn.getName() + ": " + adelaideCrows.ranking());
+
+        System.out.println(adelaideCrows.compareTo(melbourne));
+        System.out.println(adelaideCrows.compareTo(hawthorn));
+        System.out.println(hawthorn.compareTo(adelaideCrows));
+        System.out.println(melbourne.compareTo(fremantle));
+
      }
 }
