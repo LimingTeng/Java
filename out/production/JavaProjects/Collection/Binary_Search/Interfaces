@@ -1,0 +1,14 @@
+The core collection interfaces:
+
+          Collection
+               |
+   --------------------------
+  /        /       \         \
+Set     List     Queue      Deque
+ |
+SortedSet
+
+
+Map
+ |
+SortedMap
